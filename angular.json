@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "IPL-Fantasy-League"
+    }
+  },
+  "defaultProject": "IPL-Fantasy-League",
+  "cli": {
+    "analytics": "8d5b058a-5822-4bcd-a916-e11685e27dd7"
+  }
 }
