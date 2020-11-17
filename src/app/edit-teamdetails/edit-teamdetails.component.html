@@ -1,0 +1,12 @@
+<p>edit-teamdetails works!</p>
+<form #editForm = 'ngForm' (ngSubmit) = 'editPoints()'>
+    <label>Points
+        <input type=number [(ngModel)]='editTeamdetails.points' name='points' #points= ngModel>
+    </label><br>
+    
+    
+    <div class="form-group">
+        <button type="submit" class="btn" btn-success center-block>edit</button>
+    </div>
+    
+    </form>

@@ -1,0 +1,14 @@
+<p>editleaderboard works!</p>
+<form #editForm = 'ngForm' (ngSubmit) = 'editBidderPoints()'>
+<label>BidderPoints
+    <input type=number [(ngModel)]='editLeaderboard.bidderPoints' name='bidderPoints' #bidderPoints= ngModel>
+</label><br>
+
+<label>BidsWon
+    <input type=number [(ngModel)]='editLeaderboard.bidsWon' name='bidderWon' #bidsWon= ngModel>
+</label>
+<div class="form-group">
+    <button type="submit" class="btn" btn-success center-block>edit</button>
+</div>
+
+</form>
